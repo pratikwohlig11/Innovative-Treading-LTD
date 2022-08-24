@@ -25,7 +25,7 @@ const routes = [
   component: Services
  },
  {
-  path:'/contact',
+  path:'/contacts',
   name:'Contact',
   component: Contact
  },

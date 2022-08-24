@@ -63,18 +63,16 @@
 </template>
 
 <script>
-import Home from "../src/views/Home.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   components: {
-    Home,
     Footer
 },
 };
 </script>
 
-<style>
+<style scoped>
 .myclass {
   display: flex;
 }
@@ -128,4 +126,5 @@ nav a {
 .nav-link:hover {
   color: #eb4760;
 }
+
 </style>
