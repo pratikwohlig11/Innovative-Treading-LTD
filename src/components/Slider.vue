@@ -71,7 +71,6 @@
     <span class="visually-hidden">Next</span>
   </button> -->
     </div>
-
   </div>
 </template>
 
@@ -83,15 +82,9 @@ export default {
 
 <style scoped>
 .carousel-caption {
-  /* text-align: center;
-    top: 50%;
-    width: 100%;
-      */
   position: absolute;
   top: 50%;
-  /* left: 50%;
-    margin-left: -(X/2)px;
-    margin-top: -(Y/2)px */
+ 
 }
 .carousel-caption p {
   color: #53165c !important;

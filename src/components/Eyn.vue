@@ -16,19 +16,17 @@ name:'Eyn'
 <style scoped>
 .eyn-data{
       font-family: Comic Sans MS,Times,serif;
-  font-size: 30px;
-  text-align: center;
+    font-size: 30px;
+    text-align: center;
     text-decoration-color: currentcolor;
-  color: #e9455e;
-  padding-top: 4%;
+   color: #e9455e;
+    padding-top: 4%;
 }
 .eyn-data h3 u{
     text-decoration: underline;
   text-decoration-color: teal;
 }
 .head{
-  /* padding-top: 5%; */
-  /* padding-bottom: 4%; */
   text-align: start;
   font-family: Courier,Times,serif;
   font-size: 20px;

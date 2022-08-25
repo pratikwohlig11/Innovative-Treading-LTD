@@ -47,7 +47,7 @@ export default {
 <style scoped>
 .sa-data {
   font-family: Times, serif;
-  background-color: skyblue;
+  background-color: rgb(195 236 254);
   padding: 40px 0px;
   /* font-size: 500; */
 }

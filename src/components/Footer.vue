@@ -19,7 +19,7 @@
                 <br />
                 <li><a href="/services" class="nav-link">Services</a></li>
                 <br />
-                <li><a href="/contact" class="nav-link">Contact </a></li>
+                <li><a href="/contact" class="nav-link">Contact</a></li>
               </ul>
             </div>
           </div>
