@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row py-5">
         <div class="col-6">
-          <P>Bathroom we have completed over the years </P>
+          <P>Bathroom we have completed over the years.</P>
         </div>
-        <div class="col-6">
+        <div class="col-6 ">
           <img
             src="../assets/Images/services2.jpg"
             alt="image loading"
@@ -66,4 +66,14 @@ export default {
 .imgg{
     background-color:rgb(195 236 254);
 }
+ .col-6 img{ 
+  height: 105% !important;
+  width: 100%;
+ } 
+ .col-6 p{
+  padding: 255px 0px 0px 0px;
+  font-weight: bolder;
+}
+ 
+
 </style>

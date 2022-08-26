@@ -5,19 +5,19 @@
         <div class="row text-center text-md-left">
           <!-- links starts -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <a class="nav-link color router-link-exact-active active" href="/"> 
             <div class="fimage">
-               <a class="nav-link color router-link-exact-active active" href="/">
               <img
                 src="../assets/Images/logo.svg"
                 alt="image loading"
                 class="img-fluid"
               />
-              </a>
             </div>
+            </a>
             <br />
             <div>
               <ul class="list">
-                <li><a href="/about" class="nav-link">About</a></li>
+                <li><a href="/" class="nav-link">Home</a></li>
                 <br />
                 <li><a href="/services" class="nav-link">Services</a></li>
                 <br />
@@ -77,7 +77,7 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "Afooter",
 };
 </script>
 

@@ -3,19 +3,19 @@
     <Servicesimg/>
     <Servicesbio/>
     <Servicesimgg/>
-    <Footer />
+    <Sfooter />
   </div>
 </template>
 
 <script>
-import Footer from "../components/Footer.vue";
+import Sfooter from "../components/Sfooter.vue";
 import Servicesimg from "@/components/Servicesimg.vue";
 import Servicesbio from "@/components/Servicesbio.vue";
 import Servicesimgg from "@/components/Servicesimgg.vue";
 export default {
   name: "Home",
   components: {
-    Footer,
+    Sfooter,
     Servicesimg,
     Servicesbio,
     Servicesimgg,

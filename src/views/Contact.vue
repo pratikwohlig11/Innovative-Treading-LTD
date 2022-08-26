@@ -4,24 +4,24 @@
     <ContactData />
     <ContactForm/>
     <Map />
-    <Footer />
+  <Cfooter/>
   </div>
 </template>
 
 <script>
-import Footer from "../components/Footer.vue"
 import Contactus from "../components/Contactus.vue"
 import ContactData from "@/components/ContactData.vue";
 import Map from "@/components/Map.vue";
 import ContactForm from "@/components/ContactForm.vue";
+import Cfooter from "@/components/Cfooter.vue";
 export default {
   name: "Home",
   components: {
-    Footer,
     Contactus,
     Map,
     ContactData,
-    ContactForm
+    ContactForm,
+    Cfooter,
 },
 };
 </script>

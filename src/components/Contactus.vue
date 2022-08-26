@@ -27,9 +27,10 @@ export default {
 }
 .contact-img p {
   color: #53165c !important;
-  font-size: 30px !important;
+  font-size: 45px !important;
   font-family: Tahoma, Times, serif;
   font-weight: bolder !important;
+  margin-top: 60px;
 }
 
 .contactimg {

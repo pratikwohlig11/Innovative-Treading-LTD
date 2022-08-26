@@ -2,19 +2,19 @@
   <div>
     <Aboutimg/>
     <Aboutbio/>
-    <Footer />
+    <Afooter />
   </div>
 </template>
 
 <script>
-import Footer from "../components/Footer.vue"
+import Afooter from "../components/Afooter.vue"
 import Aboutimg from "@/components/Aboutimg.vue"
 import Aboutbio from "@/components/Aboutbio"
 
 export default {
   name: "Home",
   components: {
-    Footer,
+    Afooter,
     Aboutimg,
     Aboutbio,
 },
