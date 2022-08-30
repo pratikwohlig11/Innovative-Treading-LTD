@@ -29,5 +29,6 @@ export default {};
   width: 80vw;
   height: 80vh;
   max-width: 100%;
+  padding-bottom: 25px;
 }
 </style>

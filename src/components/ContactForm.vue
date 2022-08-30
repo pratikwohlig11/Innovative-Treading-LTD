@@ -1,52 +1,12 @@
 <template>
-  <!-- <div>
-    <div class="form">
-      <div class="container">
-        <h1>CONTACT US</h1>
-        <div class="contact">
-        <div>
-          <label for="fname">Name:</label>
-          <input type="text" v-model="Name" placeholder="Your Full name..." />
-          <br><br>
-
-          <label for="lname">Email:</label>
-          <input
-            type="text"
-            v-model="Email"
-            placeholder="Your Email Address..."
-          />
-          <br><br />
-          <label for="fname">Phone No:</label>
-          <input type="text" v-model="PhoneNo" placeholder="Phone No..." />
-        </div>
-          <br><br />
-          <textarea class="add"
-            name=""
-            v-model="Address"
-            id=""
-            style="width: 31%"
-            cols="30"
-            rows="7"
-            placeholder="Address..."
-          ></textarea>
-          
-            <br /><br>
-            <button v-on:click="SUBMIT">SUBMIT</button>
-            <br><br>
-        
-        </div>
-      </div>
-    </div>
-  </div> -->
   <div>
     <div class="form">
       <div class="container">
         <h1>CONTACT US</h1>
-        <div class="contact pb-5" style="margin: 0 150px;
-          text-align: center;">
+        <div class="contact pb-5" style="margin: 0 150px; text-align: center">
           <form class="text-center" @submit.prevent="getData">
             <div class="row">
-              <div class="col-12" style="margin-bottom: 15px;">
+              <div class="col-12" style="margin-bottom: 15px">
                 <div class="text-start mb-3">
                   <label></label>
                   <input
@@ -94,19 +54,18 @@
                     placeholder="Enter Your Email..."
                   />
 
-                  <div class="valid-feedback">Your email Is Valid </div>
+                  <div class="valid-feedback">Your email Is Valid</div>
                   <div class="invalid-feedback">
                     <span v-if="!$v.email.required">Email is required.</span>
                     <br />
-                   
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-12" style="margin-bottom: 15px;">
-                <div class="text-start mb-3" >
+              <div class="col-12" style="margin-bottom: 15px">
+                <div class="text-start mb-3">
                   <label></label>
                   <input
                     type="number"
@@ -176,14 +135,10 @@ export default {
   name: "ContactForm",
   data() {
     return {
-      // Name: "",
-      // Email: "",
-      // PhoneNo: "",
-      // Address: "",
       fullname: "",
       email: "",
       phoneno: "",
-      address:"",
+      address: "",
     };
   },
   validations: {
@@ -194,23 +149,16 @@ export default {
     },
     email: {
       email,
-      required
-      // isUnique(value) {
-      //   if (value == "") return true;
-
-      //   return new promise((resolve) => {
-      //     setTimeout(() => {
-      //       resolve(typeof value === "string" && value.length % 2 != 0);
-      //     }, 350 + Math.random() * 300);
-      //   });
-      // },
+      required,
     },
+
     phoneno: {
       required,
       minLength: minLength(10),
       maxLength: maxLength(10),
     },
-     address: {
+
+    address: {
       required,
       minLength: minLength(30),
       maxLength: maxLength(50),

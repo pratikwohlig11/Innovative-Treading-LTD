@@ -13,22 +13,22 @@ const routes = [
     name: 'home',
     component: Home
   },
- {
-  path:'/about',
-  name:'About',
-  component: About
- },
+  {
+    path: '/about',
+    name: 'About',
+    component: About
+  },
 
- {
-  path:'/services',
-  name:'Services',
-  component: Services
- },
- {
-  path:'/contact',
-  name:'Contact',
-  component: Contact
- },
+  {
+    path: '/services',
+    name: 'Services',
+    component: Services
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
+  },
 ]
 
 const router = new VueRouter({

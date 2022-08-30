@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Servicesimg/>
-    <Servicesbio/>
-    <Servicesimgg/>
+    <Servicesimg />
+    <Servicesbio />
+    <Servicesimgg />
     <Sfooter />
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     Servicesimg,
     Servicesbio,
     Servicesimgg,
-},
+  },
 };
 </script>
 

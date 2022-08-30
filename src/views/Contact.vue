@@ -2,14 +2,14 @@
   <div>
     <Contactus />
     <ContactData />
-    <ContactForm/>
+    <ContactForm />
     <Map />
-  <Cfooter/>
+    <Cfooter />
   </div>
 </template>
 
 <script>
-import Contactus from "../components/Contactus.vue"
+import Contactus from "../components/Contactus.vue";
 import ContactData from "@/components/ContactData.vue";
 import Map from "@/components/Map.vue";
 import ContactForm from "@/components/ContactForm.vue";
@@ -22,7 +22,7 @@ export default {
     ContactData,
     ContactForm,
     Cfooter,
-},
+  },
 };
 </script>
 

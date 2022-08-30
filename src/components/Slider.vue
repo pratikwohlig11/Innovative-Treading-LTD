@@ -84,12 +84,14 @@ export default {
 .carousel-caption {
   position: absolute;
   top: 50%;
- 
 }
 .carousel-caption p {
   color: #53165c !important;
   font-size: 27px !important;
   font-family: Tahoma, Times, serif;
   font-weight: bolder !important;
+}
+.d-block {
+  opacity: 0.7;
 }
 </style>

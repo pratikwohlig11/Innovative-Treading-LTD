@@ -8,7 +8,7 @@
         </h4>
         <hr />
         <div class="contact-details">
-          <div class="row py-5 ">
+          <div class="row py-5">
             <div class="col-6 text-start" style="color: teal">
               <div class="address-data">
                 <i class="fa-solid icon fa-location-dot"></i>
@@ -18,8 +18,7 @@
                 12 Princess Court, Canning Road, <br />6QB
               </div>
             </div>
-            <div class="col-6" style="color:teal">
-
+            <div class="col-6" style="color: teal">
               <div class="email-phone-data text-start">
                 <p>
                   <i class="fa-solid fa-phone"></i>
@@ -28,7 +27,9 @@
                 </p>
                 <i class="fa-solid fa-envelope"></i>
                 <b> Email: </b>
-                <a style="color:teal" class="colr">sales@innovativetrading.co.uk</a>
+                <a style="color: teal" class="colr"
+                  >sales@innovativetrading.co.uk</a
+                >
               </div>
             </div>
           </div>

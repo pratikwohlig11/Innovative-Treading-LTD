@@ -22,15 +22,15 @@ export default {
 <style scoped>
 .contact-img {
   position: absolute;
-  top: 50%; 
+  top: 50%;
   width: 100%;
 }
 .contact-img p {
   color: #53165c !important;
-  font-size: 45px !important;
+  font-size: 40px !important;
   font-family: Tahoma, Times, serif;
   font-weight: bolder !important;
-  margin-top: 60px;
+  margin-top: -38px;
 }
 
 .contactimg {

@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <div class="navigation-bar">
-      <nav class="navbar navbar-expand-lg bg-light sticky">
+      <nav class="navbar navbar-expand-lg bg-light stikc">
         <div class="container">
           <!-- my class start -->
           <div class="myclass">
             <!-- logo start -->
             <a class="navbar-brand text-start" href="#">
-            <a class="nav-link color router-link-exact-active active" href="/"> 
-              <img
-                src="./assets/Images/logo.svg"
-                alt="Images Loading"
-                class="img-fluid logo"
-              />
-            </a>
+              <a
+                class="nav-link color router-link-exact-active active"
+                href="/"
+              >
+                <img
+                  src="./assets/Images/logo.svg"
+                  alt="Images Loading"
+                  class="img-fluid logo"
+                />
+              </a>
             </a>
             <!-- logo end -->
 
@@ -34,10 +37,13 @@
             <!-- respo btn  end -->
 
             <!-- Links Start -->
-            <div class="navv content collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              class="navv content collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="home1 nav-item">
-                  <router-link class="nav-link " to="/">HOME</router-link>
+                  <router-link class="nav-link" to="/">HOME</router-link>
                 </li>
 
                 <li class="home2 nav-item">
@@ -45,11 +51,15 @@
                 </li>
 
                 <li class="home3 nav-item">
-                  <router-link class="nav-link" to="/services">SERVICES</router-link>
+                  <router-link class="nav-link" to="/services"
+                    >SERVICES</router-link
+                  >
                 </li>
 
                 <li class="home4 nav-item">
-                  <router-link class="nav-link" to="/contact">CONTACT</router-link>
+                  <router-link class="nav-link" to="/contact"
+                    >CONTACT</router-link
+                  >
                 </li>
               </ul>
             </div>
@@ -60,7 +70,6 @@
       </nav>
     </div>
     <router-view></router-view>
-
   </div>
 </template>
 
@@ -69,8 +78,8 @@ import Footer from "./components/Footer.vue";
 
 export default {
   components: {
-    Footer
-},
+    Footer,
+  },
 };
 </script>
 
@@ -110,14 +119,16 @@ nav a {
 .logo {
   width: 50%;
   height: 100%;
-  
 }
 
 .navbar {
-  background-color: teal !important;
+  background-color:teal !important;
   box-shadow: 0 15px 10px -15px #111;
-  transition: 0s;
-  padding: 3px;
+  /* transition: s; */
+  padding: 0px;
+  position: fixed !important;
+  z-index: 20;
+  width: 100%;
 }
 
 .nav-link {
@@ -129,23 +140,22 @@ nav a {
 .nav-link:hover {
   color: #eb4760;
 }
-.content{
+.content {
   padding: 0px 0px 8px 0px;
 }
-.home1{
-  margin:0 8px
+.home1 {
+  margin: 0 8px;
 }
-.home2{
-  margin:0 8px ;
+.home2 {
+  margin: 0 8px;
 }
-.home3{
-  margin3:0 8px;
+.home3 {
+  margin3: 0 8px;
 }
-.home4{
-  margin:0 8px;
+.home4 {
+  margin: 0 8px;
 }
-.navv{
+.navv {
   margin: 0px -60px 0px 0px;
 }
-
 </style>

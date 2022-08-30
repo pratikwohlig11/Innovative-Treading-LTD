@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="sa-data text-center">
-        <h2><u>SERVICES AVAILABLE</u></h2>
+      <h2><u>SERVICES AVAILABLE</u></h2>
 
       <div class="para">
         <p>
@@ -29,13 +29,12 @@
                 src="../assets/Images/home3.jpg"
                 alt="image loading"
               />
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
+  </div>
 </template>
 
 <script>
@@ -49,6 +48,7 @@ export default {
   font-family: Times, serif;
   background-color: rgb(195 236 254);
   padding: 40px 0px;
+
   /* font-size: 500; */
 }
 .para {
@@ -62,15 +62,19 @@ export default {
 .img-1 {
   border: 2px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 0px 26px 8px;
-  width: 95%;
-  height: 97%;
-  /* padding: 40px 0px; */
+  width: 85%;
+  height: 98%;
+  margin: 2px -61px 0px 55px;
 }
 .img-2 {
-  /* padding: 40px 0px; */
   border: 2px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 0px 26px 8px;
-  width: 95%;
-  height: 97%;
+  width: 85%;
+  height: 98%;
+  margin: 2px 34px -13px -31px;
+}
+.h2 {
+  font-family: Times, serif;
+  font-weight: 600;
 }
 </style>
