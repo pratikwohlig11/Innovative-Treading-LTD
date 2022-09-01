@@ -18,20 +18,44 @@ export default {
 </script>
 
 <style scoped>
-/*  
-  position: absolute;
-  top: 50%; 
-  width: 100%; */
+
 .about-img p {
   color: #53165c !important;
   font-size: 30px !important;
   font-family: Tahoma, Times, serif;
   font-weight: bolder !important;
   position: absolute;
-  top: 50%;
+  top: 35%;
   width: 100%;
+  /* padding-top: 50px; */
+  /* margin: -205px 0px ; */
 }
 .aboutp {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 991px)
+{
+  .aboutp{
+    width: 100vw;
+    height: 300px !important;
+  }
+  /* .about-img{
+    width: auto;
+    height: auto;
+    font-size: 18px !important;
+  } */
+  .about-img p{
+  font-size: 16px !important;
+  top: 20% !important;
+}
+}
+
+@media only screen and (max-width: 768px)
+{
+  .about-img p{
+  /* font-size: 16px !important; */
+  top: 24% !important;
+}
 }
 </style>

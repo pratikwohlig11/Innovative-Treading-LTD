@@ -32,10 +32,10 @@
           <img
             src="../assets/Images/hom1.jpg"
             style="height: 600px; width: 100vw !important"
-            class="d-block w-100"
+            class="slider-img d-block w-100"
             alt="Iamge Loading..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block">
             <p>WELCOME TO INNOVATIVE TRADING LTD.</p>
           </div>
         </div>
@@ -43,10 +43,10 @@
           <img
             src="../assets/Images/hom2.jpg"
             style="height: 600px; width: 100vw !important"
-            class="d-block w-100"
+            class="slider-img d-block w-100"
             alt="Image Loading..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block">
             <p>STRONG VALUES AIMED AT EXCEEDING CLIENT NEEDS</p>
           </div>
         </div>
@@ -54,22 +54,14 @@
           <img
             src="../assets/Images/hom3.jpg"
             style="height: 600px; width: 100vw !important"
-            class="d-block w-100"
+            class="slider-img d-block w-100"
             alt="Image Loading..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block">
             <p>FLEXIBILITY, STRONG WORK ETHIC & HIGH QUALITY</p>
           </div>
         </div>
       </div>
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button> -->
     </div>
   </div>
 </template>
@@ -81,6 +73,7 @@ export default {
 </script>
 
 <style scoped>
+  
 .carousel-caption {
   position: absolute;
   top: 50%;
@@ -94,4 +87,24 @@ export default {
 .d-block {
   opacity: 0.7;
 }
+@media only screen and (max-width: 576px)
+{
+  .slider-img{
+    max-width: 100vw !important;
+    height: 300px !important;
+  }
+  .carousel-caption p{
+    font-size: 16px !important;
+  }
+  .carousel-caption{
+    
+  }
+}
+/* @media only screen and (max-width: 400px)
+{
+  .carousel-caption p{
+    font-size: 10px !important;
+  }
+} */
+
 </style>

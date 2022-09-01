@@ -64,4 +64,28 @@ export default {
   font-size: 20px;
   text-align: start;
 }
+@media only screen and (max-width: 600px){
+  .sb{
+    width: auto;
+  }
+  .head{
+  
+    line-height: 25px;
+  padding: 5%;
+  width: auto;
+  height: auto;
+  }
+  .taghighlight{
+    line-height: 35px;
+  width: 100%;
+  height: auto;
+  text-align: start;
+  }
+  .head-1{
+    line-height: 25px;
+  padding: 5%;
+  width: auto;
+  height: auto;
+  }
+}
 </style>

@@ -13,26 +13,30 @@
           touch today.
         </p>
       </div>
-      <div>
-        <div class="ig-2">
-          <div class="row">
-            <div class="col-md-6">
-              <img
-                class="img-fluid img-1"
-                src="../assets/Images/home2.jpg"
-                alt="images loading"
-              />
-            </div>
-            <div class="col-md-6">
-              <img
-                class="img-fluid img-2"
-                src="../assets/Images/home3.jpg"
-                alt="image loading"
-              />
-            </div>
+     
+      <div class="container">
+        <div class="images-div row">
+          <!-- img -1 starts -->
+
+          <div class="img-pad col-md-6 col-12">
+            <figure class="thisimg">
+              <img src="../assets/Images/home2.jpg" alt="" class="img-fluid imgdesign">
+            </figure>
           </div>
+
+          <!-- img -1  ends -->
+         
+
+          <!-- img-2 starts -->
+          <div class="img-pad col-md-6 col-12">
+            <figure class="thisimg">
+              <img src="../assets/Images/home3.jpg" alt="" class="img-fluid imgdesign">
+            </figure>
+          </div>
+          <!-- img-2 ends -->
         </div>
       </div>
+
     </div>
   </div>
 </template>
@@ -48,8 +52,6 @@ export default {
   font-family: Times, serif;
   background-color: rgb(195 236 254);
   padding: 40px 0px;
-
-  /* font-size: 500; */
 }
 .para {
   font-family: Times, serif;
@@ -57,24 +59,37 @@ export default {
   text-align: start;
   font-size: 20px;
   font-weight: 600;
-  /* padding-bottom: 100px; */
 }
-.img-1 {
+.imgdesign{
   border: 2px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 0px 26px 8px;
-  width: 85%;
-  height: 98%;
-  margin: 2px -61px 0px 55px;
-}
-.img-2 {
-  border: 2px solid #fff;
-  box-shadow: rgba(0, 0, 0, 0.64) 0px 0px 26px 8px;
-  width: 85%;
-  height: 98%;
-  margin: 2px 34px -13px -31px;
+  /* margin: 2px -61px 0px 55px; */
 }
 .h2 {
   font-family: Times, serif;
   font-weight: 600;
+}
+@media only screen and (max-width: 576px) {
+  .sa-data h2 u {
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .para {
+    padding: 7%;
+  }
+  .para p {
+    font-size: 18px;
+  }
+  .padd-pic{
+    padding: 2% 15%;
+
+  }
+  .img-pad{
+    padding: 5% 10%;  
+  }
+}
+@media only screen and (max-width: 768px) {
+  
 }
 </style>

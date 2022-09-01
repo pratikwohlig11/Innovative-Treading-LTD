@@ -126,11 +126,25 @@ hr {
   color: white;
 }
 .size {
-  height: 80%;
-  width: 110%;
+  height: 75%;
+  width: 100%;
 }
 .nav-link:focus,
 .nav-link:hover {
   color: #eb4760 !important;
 }
+/* @media only screen and (max-width: 577px)
+  {
+    .text{
+      font-size: 13px;
+      width: auto;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 766px)
+  {
+    .foot{
+      text-align: center;
+    }
+  } */
 </style>

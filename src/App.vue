@@ -104,10 +104,6 @@ nav a {
   color: black;
 }
 
-/* nav a.router-link-exact-active {
-  color: red;
-} */
-
 .nav-link:focus,
 .nav-link:hover {
   color: #eb4760;
@@ -158,4 +154,5 @@ nav a {
 .navv {
   margin: 0px -60px 0px 0px;
 }
+
 </style>

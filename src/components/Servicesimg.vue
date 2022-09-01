@@ -30,4 +30,15 @@ export default {
   top: 42%;
   width: 100%;
 }
+/* @media only screen and (max-width: 600px)
+{
+  .servicep{
+    width: auto;
+    height: 300px !important;
+  }
+  .service-img{
+    width: auto;
+    height: auto;
+  }
+} */
 </style>

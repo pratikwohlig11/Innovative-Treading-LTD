@@ -31,4 +31,5 @@ export default {};
   max-width: 100%;
   padding-bottom: 25px;
 }
+
 </style>

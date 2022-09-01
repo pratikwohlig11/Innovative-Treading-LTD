@@ -46,4 +46,12 @@ export default {
 </script>
 
 <style>
+  /* @media only screen and (max-width: 600px)
+{
+  .contact-data{
+    width: 100vw;
+    height: 300px !important;
+  }
+
+} */
 </style>

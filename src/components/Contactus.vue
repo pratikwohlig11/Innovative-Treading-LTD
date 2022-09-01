@@ -3,7 +3,7 @@
     <div class="contactimg">
       <img
         src="../assets/Images/contact1.jpg"
-        class="img-fluid"
+        class="imgc img-fluid"
         alt="image Loading"
       />
     </div>
@@ -46,4 +46,14 @@ export default {
 .mark {
   background-color: skyblue;
 }
+/* @media only screen and (max-width: 576px)
+{
+  .imgc{
+    width: 100vw;
+    height: 300px !important;
+  }
+  .contact-img{
+  
+  }
+} */
 </style>

@@ -74,4 +74,7 @@ export default {
   padding: 255px 0px 0px 0px;
   font-weight: bolder;
 }
+@media only screen and (max-width: 600px){
+
+}
 </style>

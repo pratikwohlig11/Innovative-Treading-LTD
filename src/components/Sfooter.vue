@@ -123,8 +123,8 @@ hr {
   color: white;
 }
 .size {
-  height: 70%;
-  width: 110%;
+  height: 75%;
+  width: 100%;
 }
 .nav-link:focus,
 .nav-link:hover {

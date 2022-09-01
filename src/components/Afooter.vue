@@ -28,7 +28,7 @@
           <!-- links starts -->
 
           <!-- Get-in-touch starts -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="colm col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <div class="padd">
               <h4 class="title foot">Get in Touch</h4>
             </div>
@@ -124,11 +124,32 @@ hr {
   /* display: flex; */
 }
 .size {
-  height: 70%;
-  width: 110%;
+  height: 75%;
+  width: 100%;
 }
 .nav-link:focus,
 .nav-link:hover {
   color: #eb4760 !important;
 }
+/* @media only screen and (max-width: 766px)
+{
+  .colm{
+  height: auto;
+  width: auto;
+  text-align: center;
+  }
+}
+@media only screen and (max-width: 450px)
+{
+  .text{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 576px)
+{
+  .abcd{
+    height: auto;
+    width: auto;
+  } 
+} */
 </style>

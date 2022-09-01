@@ -40,4 +40,14 @@ export default {
   color: var(--bs-body-color);
   padding: 40px 135px;
 }
+@media only screen and (max-width: 576px) {
+  .head {
+    line-height: 25px;
+    padding: 7%;
+    text-align: start;
+  }
+  .head p {
+    font-size: 18px;
+  }
+}
 </style>

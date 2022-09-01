@@ -55,7 +55,7 @@ export default {
 }
 .list {
   list-style-type: none;
-  font-size: 140%;
+  font-size: 120%;
   color: #53165c !important;
   font-weight: 550px;
 }

@@ -68,4 +68,20 @@ export default {
   font-size: 20px;
   text-align: start;
 }
+@media only screen and (max-width: 576px){
+
+  .head{
+  line-height: 25px;
+  padding: 5%;
+  width: auto;
+  height: auto;
+}
+.head-1{
+
+  line-height: 25px;
+  padding: 5%;
+  width: auto;
+  height: auto;
+}
+}
 </style>
