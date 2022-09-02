@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <div class="navigation-bar">
-      <nav class="navbar navbar-expand-lg bg-light stikc">
+      <nav class="navbar navbar-expand-lg bg-light sticky">
         <div class="container">
           <!-- my class start -->
           <div class="myclass">
             <!-- logo start -->
-            <a class="navbar-brand text-start" href="#">
+            <!-- <a class="navbar-brand text-start" href="#"> -->
               <a
                 class="nav-link color router-link-exact-active active"
                 href="/"
@@ -17,7 +17,7 @@
                   class="img-fluid logo"
                 />
               </a>
-            </a>
+            <!-- </a> -->
             <!-- logo end -->
 
             <!-- respo btn  start -->
@@ -132,6 +132,8 @@ nav a {
   font-size: 20px;
   font-weight: 900;
   padding: 10px;
+  text-align: start;
+  width: 70%;
 }
 .nav-link:hover {
   color: #eb4760;
@@ -146,13 +148,22 @@ nav a {
   margin: 0 8px;
 }
 .home3 {
-  margin3: 0 8px;
+  margin: 0 8px;
 }
 .home4 {
   margin: 0 8px;
 }
-.navv {
+/* .navv {
   margin: 0px -60px 0px 0px;
+} */
+.respo-btn{
+  padding: 5px -34px 0px 60px;
+}
+@media only screen and (max-width: 576px)
+{
+  .nav-link{
+    width: 100% !important;
+  }
 }
 
 </style>

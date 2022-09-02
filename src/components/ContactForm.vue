@@ -8,7 +8,6 @@
             <div class="row">
               <div class="col-12" style="margin-bottom: 15px">
                 <div class="text-start mb-3">
-                  <label></label>
                   <input
                     type="text"
                     class="form-control"
@@ -19,21 +18,20 @@
                     }"
                     placeholder="Enter Your Full Name..."
                   />
-
                   <div class="valid-feedback">Your Full Name Is Valid</div>
                   <div class="invalid-feedback">
                     <span v-if="!$v.fullname.required"
-                      >Your Full Name iS required.</span
+                      >Your Full Name Is required.</span
                     >
                     <br />
-                    <span v-if="!$v.fullname.minLength"
+                    <!-- <span v-if="!$v.fullname.minLength"
                       >Full Name Must Have At Least
                       {{ $v.fullname.$params.minLength.min }}letters</span
                     ><br />
                     <span v-if="$v.fullname.maxLength"
                       >Full Name Must Have At Most
                       {{ $v.fullname.$params.maxLength.max }}letters</span
-                    >
+                    > -->
                   </div>
                 </div>
               </div>
@@ -44,7 +42,6 @@
                 <div class="text-start mb-3">
                   <input
                     type="email"
-                    @blur="$v.posts.email.$touch()"
                     class="form-control"
                     v-model.trim="$v.email.$model"
                     :class="{
@@ -54,9 +51,9 @@
                     placeholder="Enter Your Email..."
                   />
 
-                  <div class="valid-feedback">Your email Is Valid</div>
+                  <div class="valid-feedback">Your Email Is Valid</div>
                   <div class="invalid-feedback">
-                    <span v-if="!$v.email.required">Email is required.</span>
+                    <span v-if="!$v.email.required">Email Is Required.</span>
                     <br />
                   </div>
                 </div>
@@ -69,7 +66,6 @@
                   <label></label>
                   <input
                     type="number"
-                    @blur="$v.posts.number.$touch()"
                     class="form-control"
                     v-model.trim="$v.phoneno.$model"
                     :class="{
@@ -79,16 +75,16 @@
                     placeholder="Enter Your Phone No..."
                   />
 
-                  <div class="valid-feedback">Your phone no Is Valid</div>
+                  <div class="valid-feedback">Your Phone No Is Valid</div>
                   <div class="invalid-feedback">
                     <span v-if="!$v.phoneno.required"
-                      >phoneno is required.</span
+                      >Phone No Is Required.</span
                     >
                     <br />
-                    <span v-if="!$v.phoneno.isUnique"
+                    <!-- <span v-if="!$v.phoneno.isUnique"
                       >This phone No Is Already Registered
-                      {{ $v.phoneno.$params.minLength.min }}numbers</span
-                    ><br />
+                      {{ $v.phoneno.$params.minLength.min }}numbers</span> -->
+                    <br />
                     <span v-if="$v.phoneno.maxLength"
                       >Phone No Must Have At Most
                       {{ $v.phoneno.$params.maxLength.max }}numbers</span
@@ -116,7 +112,7 @@
               </div>
             </div>
 
-            <button class="btn btn-danger my-5">SUBMIT</button>
+            <button class="btn btn-danger my-5" input type="reset" value="reset" in>SUBMIT</button>
           </form>
         </div>
       </div>
@@ -144,8 +140,8 @@ export default {
   validations: {
     fullname: {
       required,
-      minLength: minLength(6),
-      maxLength: maxLength(10),
+      // minLength: minLength(0),
+      // maxLength: maxLength(20),
     },
     email: {
       email,
@@ -163,9 +159,13 @@ export default {
       minLength: minLength(30),
       maxLength: maxLength(50),
     },
+      reset:{
+        
+      }
   },
 
   methods: {
+ 
     getData() {
       console.log(this.fullname);
       console.log(this.email);
@@ -194,5 +194,19 @@ h1 {
 }
 .add {
   border-style: hidden;
+}
+@media only screen and (max-width: 576px){
+  .text-center{
+  width: 100%;
+  }
+  .contact{
+    margin: 0 !important;
+  }
+  .contact-data{
+    padding:0 !important;
+  }
+  .colr{
+    word-wrap: anywhere;
+  }
 }
 </style>

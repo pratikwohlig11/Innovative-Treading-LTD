@@ -31,5 +31,11 @@ export default {};
   max-width: 100%;
   padding-bottom: 25px;
 }
-
+@media only screen and (max-width: 576px){
+.map-details{
+  height: 80vw;
+  max-width: 100%;
+  width: 80vh;
+}
+}
 </style>

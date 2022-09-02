@@ -89,7 +89,5 @@ export default {
     padding: 5% 10%;  
   }
 }
-@media only screen and (max-width: 768px) {
-  
-}
+
 </style>

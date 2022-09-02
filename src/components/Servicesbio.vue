@@ -48,14 +48,14 @@ export default {
   font-size: 20px;
   color: #212529;
   text-align: start;
-  padding-bottom: 2%;
+  /* padding-bottom: 2%; */
 }
 .taghighlight {
   color: #53165c;
-  /* text-align: start; */
-  margin-right: 70%;
-  font-size: 30px;
-  font-family: sans-serif;
+  text-align: start;
+  font-size: 24px;
+  font-family: serif;
+  padding: 0px 26px;
 }
 .head-1 {
   color: #e9455e;
@@ -64,28 +64,23 @@ export default {
   font-size: 20px;
   text-align: start;
 }
-@media only screen and (max-width: 600px){
-  .sb{
-    width: auto;
-  }
+@media only screen and (max-width: 576px){
   .head{
-  
     line-height: 25px;
   padding: 5%;
-  width: auto;
-  height: auto;
-  }
-  .taghighlight{
-    line-height: 35px;
   width: 100%;
-  height: auto;
-  text-align: start;
   }
+
+  .taghighlight{
+    line-height: 0px;
+  width: 100%;
+  text-align: center;
+  }
+
   .head-1{
-    line-height: 25px;
-  padding: 5%;
-  width: auto;
-  height: auto;
+  line-height: 24px;
+  padding: 7% !important;
+  width: 100%;
   }
 }
 </style>

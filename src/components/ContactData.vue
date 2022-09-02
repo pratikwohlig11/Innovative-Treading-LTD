@@ -46,12 +46,14 @@ export default {
 </script>
 
 <style>
-  /* @media only screen and (max-width: 600px)
+@media only screen and (max-width: 576px)
 {
-  .contact-data{
-    width: 100vw;
-    height: 300px !important;
-  }
-
-} */
+  h4{
+  width: 100%;
+  max-width: 100%;
+  font-weight: 700;
+  text-align: start;
+  flex-shrink: 0;
+}
+}
 </style>

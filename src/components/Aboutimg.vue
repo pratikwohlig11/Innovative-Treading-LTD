@@ -27,8 +27,7 @@ export default {
   position: absolute;
   top: 35%;
   width: 100%;
-  /* padding-top: 50px; */
-  /* margin: -205px 0px ; */
+
 }
 .aboutp {
   opacity: 0.7;
@@ -40,11 +39,6 @@ export default {
     width: 100vw;
     height: 300px !important;
   }
-  /* .about-img{
-    width: auto;
-    height: auto;
-    font-size: 18px !important;
-  } */
   .about-img p{
   font-size: 16px !important;
   top: 20% !important;
@@ -58,4 +52,5 @@ export default {
   top: 24% !important;
 }
 }
+
 </style>

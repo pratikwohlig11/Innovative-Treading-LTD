@@ -23,22 +23,22 @@ export default {
 }
 .service-img p {
   color: #53165c !important;
-  font-size: 35px !important;
+  font-size: 35px;
   font-family: Times, serif;
-  font-weight: bolder !important;
+  font-weight: 600;
   position: absolute;
   top: 42%;
   width: 100%;
 }
-/* @media only screen and (max-width: 600px)
+@media only screen and (max-width: 576px)
 {
   .servicep{
-    width: auto;
+    max-width: 100vw !important;
     height: 300px !important;
   }
-  .service-img{
-    width: auto;
-    height: auto;
+  .service-img p{
+    font-size: 185% !important;
+    top: 16% !important;
   }
-} */
+}
 </style>

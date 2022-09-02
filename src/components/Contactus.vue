@@ -27,7 +27,7 @@ export default {
 }
 .contact-img p {
   color: #53165c !important;
-  font-size: 40px !important;
+  font-size: 30px !important;
   font-family: Tahoma, Times, serif;
   font-weight: bolder !important;
   margin-top: -38px;
@@ -40,20 +40,19 @@ export default {
   background-color: skyblue;
   color: rgb(233, 69, 94);
   font-size: 26px !important;
-  /* text-align: center; */
   padding: 50px 130px 0 130px;
 }
 .mark {
   background-color: skyblue;
 }
-/* @media only screen and (max-width: 576px)
-{
-  .imgc{
-    width: 100vw;
+@media only screen and (max-width: 576px) {
+  .imgc {
+    max-width: 100vw !important;
     height: 300px !important;
   }
-  .contact-img{
-  
+  .contact-img {
+    font-size: 16px !important;
+    top: 31% !important;
   }
-} */
+}
 </style>

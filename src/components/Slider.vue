@@ -96,15 +96,6 @@ export default {
   .carousel-caption p{
     font-size: 16px !important;
   }
-  .carousel-caption{
-    
-  }
 }
-/* @media only screen and (max-width: 400px)
-{
-  .carousel-caption p{
-    font-size: 10px !important;
-  }
-} */
 
 </style>
