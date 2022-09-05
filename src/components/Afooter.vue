@@ -3,7 +3,8 @@
     <footer class="footer pt-5 pb-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
-          <!-- links starts -->
+          
+          
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <a class="nav-link color router-link-exact-active active" href="/">
               <div class="fimage">
@@ -25,9 +26,8 @@
               </ul>
             </div>
           </div>
-          <!-- links starts -->
+          
 
-          <!-- Get-in-touch starts -->
           <div class="colm col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <div class="padd">
               <h4 class="title foot">Get in Touch</h4>
@@ -53,9 +53,8 @@
               </div>
             </div>
           </div>
-          <!-- Get-in-touch ends -->
+       
 
-          <!-- Where-we-are starts -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <div class="padd">
               <h4 class="title foot">Where We Are</h4>
@@ -69,7 +68,8 @@
               style="border: 0px"
             ></iframe>
           </div>
-          <!-- Where-we-are ends -->
+        
+
         </div>
       </div>
     </footer>
@@ -121,7 +121,6 @@ a {
 }
 hr {
   color: white !important;
-  /* display: flex; */
 }
 .size {
   height: 75%;
@@ -131,25 +130,5 @@ hr {
 .nav-link:hover {
   color: #eb4760 !important;
 }
-/* @media only screen and (max-width: 766px)
-{
-  .colm{
-  height: auto;
-  width: auto;
-  text-align: center;
-  }
-}
-@media only screen and (max-width: 450px)
-{
-  .text{
-    font-size: 15px;
-  }
-}
-@media only screen and (max-width: 576px)
-{
-  .abcd{
-    height: auto;
-    width: auto;
-  } 
-} */
+
 </style>

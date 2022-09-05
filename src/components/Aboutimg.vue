@@ -27,13 +27,15 @@ export default {
   position: absolute;
   top: 35%;
   width: 100%;
+  text-align: center !important;
+ 
 
 }
 .aboutp {
   opacity: 0.7;
 }
 
-@media only screen and (max-width: 991px)
+@media only screen and (max-width: 576px)
 {
   .aboutp{
     width: 100vw;
@@ -48,7 +50,6 @@ export default {
 @media only screen and (max-width: 768px)
 {
   .about-img p{
-  /* font-size: 16px !important; */
   top: 24% !important;
 }
 }

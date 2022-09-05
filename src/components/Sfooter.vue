@@ -3,7 +3,8 @@
     <footer class="footer pt-5 pb-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
-          <!-- links starts -->
+       
+       
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <a class="nav-link color router-link-exact-active active" href="/">
               <div class="fimage">
@@ -25,9 +26,9 @@
               </ul>
             </div>
           </div>
-          <!-- links starts -->
+    
 
-          <!-- Get-in-touch starts -->
+
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <div class="padd">
               <h4 class="title foot">Get in Touch</h4>
@@ -53,9 +54,9 @@
               </div>
             </div>
           </div>
-          <!-- Get-in-touch ends -->
+         
 
-          <!-- Where-we-are starts -->
+
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <div class="padd">
               <h4 class="title foot">Where We Are</h4>
@@ -69,7 +70,8 @@
               style="border: 0px"
             ></iframe>
           </div>
-          <!-- Where-we-are ends -->
+      
+
         </div>
       </div>
     </footer>

@@ -48,7 +48,8 @@ export default {
   font-size: 20px;
   color: #212529;
   text-align: start;
-  /* padding-bottom: 2%; */
+
+  
 }
 .taghighlight {
   color: #53165c;

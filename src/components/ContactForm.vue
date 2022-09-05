@@ -4,7 +4,10 @@
       <div class="container">
         <h1>CONTACT US</h1>
         <div class="contact pb-5" style="margin: 0 150px; text-align: center">
-          <form class="text-center" @submit.prevent="getData">
+          <form class="text-center" @submit.prevent="getData" >
+            
+
+
             <div class="row">
               <div class="col-12" style="margin-bottom: 15px">
                 <div class="text-start mb-3">
@@ -21,20 +24,14 @@
                   <div class="valid-feedback">Your Full Name Is Valid</div>
                   <div class="invalid-feedback">
                     <span v-if="!$v.fullname.required"
-                      >Your Full Name Is required.</span
-                    >
-                    <br />
-                    <!-- <span v-if="!$v.fullname.minLength"
-                      >Full Name Must Have At Least
-                      {{ $v.fullname.$params.minLength.min }}letters</span
-                    ><br />
-                    <span v-if="$v.fullname.maxLength"
-                      >Full Name Must Have At Most
-                      {{ $v.fullname.$params.maxLength.max }}letters</span
-                    > -->
+                      >Your Full Name Is Required.</span>
+                      <br>
+                    <span v-if="!$v.fullname.onlytext"
+                      >Alphabets Required.</span>
                   </div>
                 </div>
               </div>
+              
             </div>
 
             <div class="row">
@@ -55,9 +52,9 @@
                   <div class="invalid-feedback">
                     <span v-if="!$v.email.required">Email Is Required.</span>
                     <br />
-                  </div>
+                  </div> 
                 </div>
-              </div>
+               </div> 
             </div>
 
             <div class="row">
@@ -78,12 +75,11 @@
                   <div class="valid-feedback">Your Phone No Is Valid</div>
                   <div class="invalid-feedback">
                     <span v-if="!$v.phoneno.required"
-                      >Phone No Is Required.</span
+                      >Numbers Is Required.</span
                     >
                     <br />
-                    <!-- <span v-if="!$v.phoneno.isUnique"
-                      >This phone No Is Already Registered
-                      {{ $v.phoneno.$params.minLength.min }}numbers</span> -->
+                    
+                    
                     <br />
                     <span v-if="$v.phoneno.maxLength"
                       >Phone No Must Have At Most
@@ -99,10 +95,7 @@
                 <div class="text-start mb-3">
                   <textarea
                     class="add"
-                    @blur="$v.posts.address.$touch()"
-                    name=""
-                    v-model="address"
-                    id=""
+                    v-model.trim="$v.address.$model"
                     style="width: 100%"
                     cols="30"
                     rows="7"
@@ -112,7 +105,23 @@
               </div>
             </div>
 
-            <button class="btn btn-danger my-5" input type="reset" value="reset" in>SUBMIT</button>
+            <button class="btn btn-danger my-5" @click="getData()" input type="reset" value="reset" in>SUBMIT</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
           </form>
         </div>
       </div>
@@ -126,7 +135,12 @@ import {
   minLength,
   maxLength,
   email,
+  alpha,
+  helpers,
 } from "vuelidate/lib/validators";
+
+const onlytext = helpers.regex("onlytext", /^[a-zA-Z ]*$/);
+// var regex = /^[a-zA-Z ]*$/;
 export default {
   name: "ContactForm",
   data() {
@@ -142,6 +156,8 @@ export default {
       required,
       // minLength: minLength(0),
       // maxLength: maxLength(20),
+      alpha,
+      onlytext,
     },
     email: {
       email,
@@ -159,13 +175,10 @@ export default {
       minLength: minLength(30),
       maxLength: maxLength(50),
     },
-      reset:{
-        
-      }
+    reset: {},
   },
 
   methods: {
- 
     getData() {
       console.log(this.fullname);
       console.log(this.email);
@@ -191,21 +204,22 @@ input {
 h1 {
   padding-top: 30px;
   padding-bottom: 12px;
+  text-align: center;
 }
 .add {
   border-style: hidden;
 }
-@media only screen and (max-width: 576px){
-  .text-center{
-  width: 100%;
+@media only screen and (max-width: 576px) {
+  .text-center {
+    width: 100%;
   }
-  .contact{
+  .contact {
     margin: 0 !important;
   }
-  .contact-data{
-    padding:0 !important;
+  .contact-data {
+    padding: 0 !important;
   }
-  .colr{
+  .colr {
     word-wrap: anywhere;
   }
 }

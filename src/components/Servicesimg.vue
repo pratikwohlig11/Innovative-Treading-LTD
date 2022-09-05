@@ -27,8 +27,10 @@ export default {
   font-family: Times, serif;
   font-weight: 600;
   position: absolute;
-  top: 42%;
+  top: 43%;
   width: 100%;
+  text-align: center !important;
+
 }
 @media only screen and (max-width: 576px)
 {

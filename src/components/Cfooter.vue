@@ -3,7 +3,8 @@
     <footer class="footer pt-5 pb-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
-          <!-- links starts -->
+       
+       
           <div class="box col-sm-12 col-md-5">
             <div class="fimage">
               <a

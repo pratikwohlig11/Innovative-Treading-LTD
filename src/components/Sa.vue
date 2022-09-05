@@ -16,7 +16,8 @@
      
       <div class="container">
         <div class="images-div row">
-          <!-- img -1 starts -->
+         
+
 
           <div class="img-pad col-md-6 col-12">
             <figure class="thisimg">
@@ -24,16 +25,14 @@
             </figure>
           </div>
 
-          <!-- img -1  ends -->
-         
+          
 
-          <!-- img-2 starts -->
           <div class="img-pad col-md-6 col-12">
             <figure class="thisimg">
               <img src="../assets/Images/home3.jpg" alt="" class="img-fluid imgdesign">
             </figure>
           </div>
-          <!-- img-2 ends -->
+     
         </div>
       </div>
 
@@ -63,7 +62,8 @@ export default {
 .imgdesign{
   border: 2px solid #fff;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 0px 26px 8px;
-  /* margin: 2px -61px 0px 55px; */
+ 
+  
 }
 .h2 {
   font-family: Times, serif;
